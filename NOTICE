@@ -1,0 +1,13 @@
+# NOTICE — 数据来源与许可
+
+`data/` 下派生词库（`zh2en.txt`、`en2zh.txt`）由以下上游公开词库生成，依 **CC BY-SA 4.0** 提供：
+
+- 青简输入法官方词库 `qingjian-team/qingjian-dicts`（`official/glossary-en`、`glossary-zh` @ `dadc628`）— CC BY-SA 4.0
+- CC-CEDICT https://www.mdbg.net/chinese/dictionary — CC BY-SA 4.0
+- ECDICT https://github.com/skywind3000/ECDICT（作者 skywind3000）— MIT（用于 en2zh 部分）
+
+修改说明：格式转换（原始词条→「词<TAB>译文」检索格式）、重建检索索引、同词多义合并（每词≤3义）并去重、按 key 升序排序；除上述外未修改词条内容。
+
+许可分工：`data/` = CC BY-SA 4.0（全文见根目录 `LICENSE`）；`tools/` 生成脚本 = MIT（见 `tools/LICENSE`）。
+
+本仓库不含任何第三方专有内容；本 App 代码不属于本仓库、不受 CC BY-SA 影响，可闭源及收费。
